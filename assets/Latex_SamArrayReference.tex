@@ -1,0 +1,17 @@
+\section{SAM Array Reference Table}
+
+\DTLsetseparator{///}
+\DTLloadrawdb{table31}{./Chapters/Latex_SamArrayReference.csv}
+
+
+\begin{table}[htbp]
+ \centering
+\begin{tabular}{cccccc}
+
+\rowcolors{2}{lhitabledeep}{lhitablelight}
+
+\renewcommand{\dtlheaderformat}{ \rowcolor{lhitabletitle}\color{white}}
+\resizebox{\linewidth}{!}{\DTLdisplaydb{table31}}
+
+\end{tabular}
+\end{table}

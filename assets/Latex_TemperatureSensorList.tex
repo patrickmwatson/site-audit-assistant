@@ -1,0 +1,17 @@
+\section{Temperature Sensor List}
+
+\DTLsetseparator{///}
+\DTLloadrawdb{table6}{./Chapters/Latex_Tempsensors.csv}
+
+
+\begin{table}[htbp]
+ \centering
+\begin{tabular}{ccccc}
+
+\rowcolors{2}{lhitabledeep}{lhitablelight}
+
+\renewcommand{\dtlheaderformat}{ \rowcolor{lhitabletitle}\color{white}}
+\resizebox{\linewidth}{!}{\DTLdisplaydb{table6}}
+
+\end{tabular}
+\end{table}

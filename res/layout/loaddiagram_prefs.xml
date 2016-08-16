@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Preferences">
+
+  <PreferenceCategory
+     android:title="Options">
+
+     <CheckBoxPreference
+       android:key="scaledicons"
+       android:title="Scale Icons"
+       android:summary="Makes items maintain scale when zooming in and out"
+       android:defaultValue="false"
+       />
+    <CheckBoxPreference
+       android:key="boundicons"
+       android:title="Bound Icons"
+       android:summary="Forces items to stay within screen bounds"
+       android:defaultValue="false"
+       android:dependency="scaledicons"
+     
+       />
+  </PreferenceCategory>
+
+  <PreferenceCategory
+     android:title="Selection">
+      
+      <EditTextPreference
+        android:key="pref_fontsize"
+        android:title="Default Font Size"
+        android:summary="Tap to enter some text"
+        android:dialogTitle="Please choose the default font size"
+    />
+      
+    <ListPreference
+        android:key="pref_fonttype"
+        android:title="Default Font Color"
+        android:summary="Select item from array"
+        android:entries="@array/types"
+        android:entryValues="@array/types_values"
+        android:defaultValue="1"
+        />
+
+    
+   
+  </PreferenceCategory>
+<!--
+  <Preference
+    android:title="Intent"
+    android:summary="Open a webpage">
+
+    <intent
+      android:action="android.intent.action.VIEW"
+      android:data="http://android-elements.blogspot.com/" />
+
+  </Preference>
+    --> 
+</PreferenceScreen>

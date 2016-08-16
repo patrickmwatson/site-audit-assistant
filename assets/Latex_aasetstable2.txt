@@ -1,0 +1,2 @@
+%\include{Site assets locations Table}
+	\input{Chapters/Latex_AssetsTable2.tex}

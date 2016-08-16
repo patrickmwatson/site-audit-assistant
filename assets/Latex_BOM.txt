@@ -1,0 +1,3 @@
+%\include{Temperature Sensor Listn}
+	\input{Chapters/Latex_BOM.tex}
+\clearpage

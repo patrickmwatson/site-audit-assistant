@@ -1,0 +1,38 @@
+    }
+   ]
+  }
+ ],
+ "maps": [
+  {
+   "name": "default I/O card map",
+   "points": [
+    { "inp": 0, "out": 0 },
+    { "inp": 4096, "out": 12.5 },
+    { "inp": 0, "out": 0 },
+    { "inp": 0, "out": 0 },
+    { "inp": 0, "out": 0 },
+    { "inp": 0, "out": 0 },
+    { "inp": 0, "out": 0 },
+    { "inp": 0, "out": 0 },
+    { "inp": 0, "out": 0 }
+   ]
+  },
+  {
+   "name": "default thermistor map",
+   "points": [
+    { "inp": 801, "out": 130 },
+    { "inp": 1138, "out": 100 },
+    { "inp": 1261, "out": 90 },
+    { "inp": 1385, "out": 80 },
+    { "inp": 1423, "out": 77 },
+    { "inp": 1508, "out": 70 },
+    { "inp": 1592, "out": 63 },
+    { "inp": 1738, "out": 50 },
+    { "inp": 2133, "out": 0 }
+   ]
+  }
+ ]
+};
+cds.cfg.mbtcp={ "enable": true, "port": 502 };
+cds.dcfg.mbtcp={
+ "unitIdMap": [

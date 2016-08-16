@@ -1,0 +1,2 @@
+%\include{Facility AsstetInformation}
+\input{Chapters/Latex_FacilityAssets.tex}

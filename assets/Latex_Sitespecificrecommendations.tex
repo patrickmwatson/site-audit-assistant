@@ -1,0 +1,18 @@
+\section{Site Specific Recommendations}
+
+\DTLsetseparator{///}
+\DTLloadrawdb{table21}{./Chapters/Latex_Siterecommendations.csv}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}
+ 
+\rowcolors{2}{lhitabledeep}{lhitablelight}
+
+ \renewcommand{\dtlheaderformat}{ \rowcolor{lhitabletitle}\color{white}\normalfont\Large\bfseries}
+ 
+\resizebox{\linewidth}{!}{\DTLdisplaydb{table21}}
+\end{tabular}
+\end{table}
+
+

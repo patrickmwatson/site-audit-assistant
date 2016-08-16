@@ -1,0 +1,17 @@
+Current Version:Site_Audit_App_V.3.4
+Version Description
+**Added VIRTUAL METERS
+*Changed Loading to individual tabs.
+*Created Option to reduce picture sizes to save load times and memory.
+*Saving to cloud is short and lossless due to zipping of project file.
+*Modification made to metering list CT size generation (Still need to check with your surveyor)
+*Removed misnaming on picture taking.
+*Repaired Picture Taking, no lost images in DCIM folder.
+*Latex Docs install with Latex App
+
+Cons
+%Can't yet import virtual meters.
+%Add pictures to components on floorplan might crash app
+%Please perform "save to excel" & verify meteringlist before closing project
+%Virtual metering is not yet added
+%Asset/component delete might not work.

@@ -1,0 +1,12 @@
+Item///ELC///Load Name///Panel Location///Voltage///PH///Trans Config///Breaker Size///CT Size,AMPS///CT Size,Physical,Inside///CT QTY///Modbus Address///Load Type///Loads on each breaker or panel
+1///1///Main Incomer A///Main Switch Room///415///3///Wye///3200///2500///SCT-3000///3///1///Building Load///
+2///1///Main Incomer B///Main Switch Room///415///3///Wye///3200///2500///SCT-3000///3///2///Building Load///
+3///1///Mechanical services control panel(B)///Main Switch Room///415///3///Wye///200///200///SCT-1250///3///3///Mechanical Load///Chiller pumps
+4///1///Mechanical services control panel(A)///Main Switch Room///415///3///Wye///200///200///SCT-1250///3///4///Mechanical Load///Chiller pumps
+5///1///Chiller 1///Main Switch Room///415///3///Wye///250///200///SCT-1250///3///5///Mechanical Load///Chiller
+6///1///Chiller 2///Main Switch Room///415///3///Wye///250///200///SCT-1250///3///6///Mechanical Load///Chiller
+7///1///General purpose lighting/power///Main Switch Room///415///3///Wye///100///100///SCT-0750///3///7///Lighting/Power///
+8///1///Existing LV distribution panel///Main Switch Room///415///3///Wye///250///200///SCT-1250///3///8///Lighting/Power///
+9///1///External services lighting/power///Main Switch Room///415///3///Wye///63///50///SCT-0750///3///9///Lighting/Power///
+10///1///DB B/AC1///Main Switch Room///415///3///Wye///250///200///SCT-1250///3///10///Mechanical Load///AHU 7A,5A,3A,1C,10B,8B
+11///1///DB A/AC1///Main Switch Room///415///3///Wye///250///200///SCT-1250///3///11///Mechanical Load///AHU 6A,4A,2C,11B,9B

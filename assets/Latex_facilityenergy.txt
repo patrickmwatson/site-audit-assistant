@@ -1,0 +1,3 @@
+%\include{Facility Energy Consumption Statistics Table}
+	\input{Chapters/Latex_FacilityEnergyConsumptionStasticsTable.tex}
+\clearpage

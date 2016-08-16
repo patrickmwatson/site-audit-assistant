@@ -1,0 +1,20 @@
+\section{Facility Information}
+
+
+\subsection{General}
+
+
+\DTLsetseparator{///}
+\DTLloadrawdb{table9}{./Chapters/Latex_General.csv}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}
+ 
+\rowcolors{2}{lhitabledeep}{lhitablelight}
+
+ \renewcommand{\dtlheaderformat}{ \rowcolor{lhitabletitle}\color{white}\normalfont\bfseries}
+ 
+\resizebox{\linewidth}{!}{\DTLdisplaydb{table9}}
+\end{tabular}
+\end{table}

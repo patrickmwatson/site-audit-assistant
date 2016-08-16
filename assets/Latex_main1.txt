@@ -1,0 +1,145 @@
+\documentclass{article}
+\def\thepage{\roman{page}}
+%\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+% % % Importing Packages
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{filecontents} 
+\usepackage{enumerate}
+\usepackage{color, colortbl}
+\usepackage{colortbl}
+\usepackage[pdftex]{graphicx}
+\usepackage{graphicx}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{datatool}
+%Select one between 'pdflscape' or 'lscape'
+\usepackage{lscape} % To display the page in portrait(existing orientation), content in landscape(less readable)
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage[percent]{overpic}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{blindtext}
+\usepackage[absolute]{textpos}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{tocloft}
+\usepackage{multicol}
+\usepackage{scalefnt}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{fix-cm}
+\usepackage{shapepar}
+\usepackage{pgfplotstable}
+\usepackage{siunitx}
+\usepackage{txfonts}            % Postscript font package (Times style)
+\usepackage[space]{grffile}
+\usepackage{longtable}
+
+%\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+% % % Format Declarations
+% % % Defining Page Styles
+\titleformat{\section}
+{\color{lhiheading1}\normalfont\Large\bfseries}
+{\color{lhiheading1}\thesection}{1em}{}
+\geometry{paperwidth=paperwidthlatex, paperheight=paperheightlatex,bottom=0.5in, left=0.56in, right=1in, top=0.5in,footskip=1in,includeheadfoot}
+\titleformat*{\subsection}{\normalfont\large\bfseries\color{lhiheading2}}
+
+% % % Header and Footer
+
+%\fancyhf{}
+\setlength{\headheight}{41pt}
+\setlength{\headwidth}{\textwidth}
+
+% % % Left Header-Site Name
+\fancyhead[L]{
+Life Hack Innovations-clientnamelatex Facility Site Visit and Energy Assessment
+}
+% % % Right Header-Maestro Logo
+\fancyhead[R]{ % right
+   \includegraphics[height=0.4in]{headermaestrologo}
+}
+
+% % % Left Footer-Life Hack Innovations
+\fancyfoot[L]{{ \colorbox{footercolor}{\makebox [160mm][c] {\rule{0cm}{4mm}{\begin{minipage}[c]{0.9\textwidth} \tiny \color{white} ©2013 Life Hack Innovations, Inc. This document contains confidential and or proprietary work product.  Any reproduction, duplication or other distribution beyond the intended recipients is expressly prohibited.  Maestro™ is a registered trademark of Elutions, Inc. All rights reserved.\end{minipage}}} }}}
+% % % Right Footer-Page Number
+\fancyfoot[R]{\colorbox{footercolor} {\makebox[6mm][c]{\rule{0cm}{4mm}\color{white}{\bfseries \thepage}}}}
+\setlength{\skip\footins}{1in}
+\pagestyle{fancy}
+\cfoot{}
+
+% % % Defining Colors
+\definecolor{lhitabletitle}{RGB}{tabletitlecolor}
+\definecolor{footercolor}{RGB}{footercolorlatex}
+\definecolor{lhicoverbackground}{RGB}{coverpagebackgroundcolor}
+\definecolor{lhitabledeep}{RGB}{tabledeepcolor}
+\definecolor{lhitablelight}{RGB}{tablelightcolor}
+\definecolor{lhiheading1}{RGB}{sectionheadingcolorlatex}
+\definecolor{lhiheading2}{RGB}{subselectionhead2}
+
+%\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+% % % Defining Variables in text 
+%\newcommand{\phasetitle}{Facilities Report}
+%\newcommand{\rev}{Version 1.0}
+%\newcommand*{\sitename}{Preliminary Observations and Finsings for the following Ahold Supermarket Sites: 729-Vestec in Prague and 543-Durychova Prague}
+%\newcommand*{\lhiid}{Life Hack Innovations Inc.}
+%\newcommand{\sitelocation}{Acton}
+%\newcommand*{\currentyear}{2013}
+\newcommand*{\documentwidth}{coverpagewidthlatex}
+\newcommand*{\documentheight}{coverpageheightlatex}
+%\newcommand*{\coverlogowidth}{6in}
+\usetikzlibrary{positioning,shapes,arrows,positioning,calc,backgrounds}
+
+
+%\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+% % % Main Document Start
+\begin{document}
+
+% % % Cover Page
+  \newgeometry{ ignoreall, centering,layoutwidth=paperwidthlatex, layoutheight=paperheightlatex, bottom=0in, left=0in, right=0in, top=0in}
+
+\begin{tikzpicture}
+
+  \coordinate[shift={(0in,0in)}] (Anchor) at (current page.north west);
+    %\ Define size and default background color of card:
+      \pgfresetboundingbox
+ 
+\node (coverpage) at (\documentwidth,\documentheight){\includegraphics[height=\documentheight,width=\documentwidth]{coverpagefilepathlatex}};
+
+\end{tikzpicture}
+
+\thispagestyle{empty}
+\restoregeometry
+
+%\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+% % % Configuring the Table of contents page
+\hypersetup{
+   linktoc=all,     %set to all if you want both sections and subsections linked
+    linkcolor=blue,  %choose some color if you want links to stand out
+    citecolor=blue,
+        filecolor=blue,
+    pdfborder = {0 0 0},
+}
+  
+\begin{frame}
+
+\renewcommand{\contentsname}{TABLE OF CONTENTS}
+\pagenumbering{roman}
+\tableofcontents\thispagestyle{fancy}
+
+\end{frame}
+
+\clearpage
+%\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+% % % Setting Page Number format for the next sections
+\pagenumbering{arabic}
+%\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\

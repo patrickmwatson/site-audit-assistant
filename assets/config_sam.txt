@@ -1,0 +1,20 @@
+{
+     "enabled": true,
+     "address": modbusaddress,
+     "name": "samname",
+     "edsFile": "EDS_SAM_Basic.xml",
+     "datapoints": [
+      { "edsNode": "mWTotal", "trigger": 0, "rate": 300 },
+      { "edsNode": "mPFapparentTotal", "trigger": 0, "rate": 300 },
+      { "edsNode": "mACVAN", "trigger": 0, "rate": 300 },
+      { "edsNode": "mACVBN", "trigger": 0, "rate": 300 },
+      { "edsNode": "mACVCN", "trigger": 0, "rate": 300 },
+      { "edsNode": "mACIA", "trigger": 0, "rate": 300 },
+      { "edsNode": "mACIB", "trigger": 0, "rate": 300 },
+      { "edsNode": "mACIC", "trigger": 0, "rate": 300 },
+      { "edsNode": "mForwardEnergy", "trigger": 0, "rate": 300 },
+      { "edsNode": "mDemand5Min", "trigger": 0, "rate": 300 },
+      { "edsNode": "mLeadingVARh", "trigger": 0, "rate": 300 },
+      { "edsNode": "mLaggingVARh", "trigger": 0, "rate": 300 }
+     ]
+    }comma

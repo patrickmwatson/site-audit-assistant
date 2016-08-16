@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lowresbg" 
+    android:gravity="bottom" >"
+
+    <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:orientation="horizontal"
+    android:paddingTop="100dp">
+        
+        
+   
+	<ImageView
+	android:id="@+id/newsite"
+	android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:src="@drawable/hiresnew"
+	android:layout_weight="1"
+	android:padding="50dp"
+    />
+
+  
+	<ImageView
+	android:id="@+id/oldsite"    
+	android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:src="@drawable/hiresopen"
+	android:padding="50dp"
+	android:layout_weight="1"
+    />
+	
+	<ImageView
+	android:id="@+id/deletesite"    
+	android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:src="@drawable/hiresdelete"
+	android:padding="50dp"
+	android:layout_weight="1"
+    />
+	</LinearLayout>
+</RelativeLayout>

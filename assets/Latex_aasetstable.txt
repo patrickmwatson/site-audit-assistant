@@ -1,0 +1,2 @@
+%\include{Life Hack Innovations assets locations Table}
+	\input{Chapters/Latex_AssetsTable.tex}

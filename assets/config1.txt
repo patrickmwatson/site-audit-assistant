@@ -1,0 +1,89 @@
+cds.cfg.net.enet={
+ "enable": true,
+ "dhcpc": { "enable": false },
+ "fixed": {
+  "ip": "configIP",
+  "nm": "configSubnet",
+  "gw": "configGateway",
+  "domain": "",
+  "dns": [ "", "", "" ]
+ }
+};
+cds.cfg.net.wan={
+ "enable": false,
+ "type": "CDMA",
+ "apn": "nphase.com",
+ "pin": { "enable": true, "code": "0000" },
+ "ping": {
+  "enable": true,
+  "period": 10,
+  "server": [ "www.google.com", "mail.lhi-europe.com" ]
+ }
+};
+cds.cfg.net.http={
+ "eth0": { "enable": true, "port": 80 },
+ "ppp0": { "enable": true, "port": 80 }
+};
+cds.cfg.net.https={
+ "eth0": { "enable": true, "port": 443 },
+ "ppp0": { "enable": true, "port": 443 }
+};
+cds.cfg.net.ntp={
+ "enable": true,
+ "servers": [ "pool.ntp.org", "", "0.0.0.0", "0.0.0.0" ],
+ "port": 123,
+ "rate": 720
+};
+cds.cfg.ports=[
+ {
+  "name": "COM1",
+  "mode": 0,
+  "baud": 115200,
+  "parity": "N",
+  "retries": 0,
+  "timeout": 70,
+  "socketTimeout": 30
+ },
+ {
+  "name": "COM2",
+  "mode": 1,
+  "baud": 9600,
+  "parity": "N",
+  "retries": 0,
+  "timeout": 70,
+  "socketTimeout": 30
+ },
+ {
+  "name": "COM3",
+  "mode": 1,
+  "baud": 9600,
+  "parity": "N",
+  "retries": 0,
+  "timeout": 70,
+  "socketTimeout": 30
+ },
+ {
+  "name": "Zigbee",
+  "mode": 1,
+  "baud": 9600,
+  "parity": "N",
+  "retries": 0,
+  "timeout": 8000,
+  "socketTimeout": 30
+ },
+ {
+  "name": "Internal",
+  "mode": 1,
+  "baud": 9600,
+  "parity": "N",
+  "retries": 0,
+  "timeout": 100,
+  "socketTimeout": 30
+ }
+];
+cds.cfg.pushServer={ "enable": false, "server": "0.0.0.0", "port": 6255 };
+cds.dcfg.deviceList={
+ "deviceGroups": [
+  null,
+  {
+   "devices": [

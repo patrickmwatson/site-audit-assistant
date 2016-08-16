@@ -1,0 +1,3 @@
+%\include{Building Load Classification}
+	\input{Chapters/Latex_BuildingLoadClassification.tex}
+\clearpage

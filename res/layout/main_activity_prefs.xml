@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Preferences">
+
+  
+    
+	       <PreferenceCategory
+	  	   android:title="Application Speed">
+		        <EditTextPreference
+		       android:key="tabimageresolutions"
+		       android:title="Image Resolution Factor on the Tabs Screens (Higher=faster)"
+		       android:defaultValue="1"
+		       />
+	 	 </PreferenceCategory>
+    
+    
+     <PreferenceCategory
+     android:title="Store Type">
+        <CheckBoxPreference
+       android:key="storetype"
+       android:title="Is Grocery Store"
+       android:summary="All the Autotext's and Spinner will change according to storetype"
+       android:defaultValue="true"
+       />
+  </PreferenceCategory>
+    
+    <PreferenceCategory
+     android:title="Restore Defaults Directories">
+      
+        <Preference
+        android:key="restoredefaultdirectories"
+        android:title="Restore Defaults"
+        android:summary=""
+        android:dialogTitle="Restore Defaults"
+    	/>
+  </PreferenceCategory>
+ 
+    
+   <PreferenceCategory
+     android:title="Main External Storage Location">
+      
+        <EditTextPreference
+        android:key="externalstoragedirectory"
+        android:title="Main Storage Directory"
+        android:summary=""
+        android:dialogTitle="Please choose your main storage directory"
+    	/>
+  </PreferenceCategory>
+  
+  <PreferenceCategory
+     android:title="Main Storage Locations">
+      
+       <EditTextPreference
+        android:key="lhistoragedirectory"
+        android:title="Life Hack Innovations Files Directory"
+        android:summary=""
+        android:dialogTitle="Please choose your storage directory"
+   		/>
+       
+        <EditTextPreference
+        android:key="lhiconfigfilesstoragedirectory"
+        android:title="App Config Files Directory"
+        android:summary=""
+        android:dialogTitle="Please choose your files storage directory"
+    	/>
+        
+         <EditTextPreference
+        android:key="projectsstoragedirectory"
+        android:title="Life Hack Innovations Site Survey Projects Directory"
+        android:summary=""
+        android:dialogTitle="Please choose your projects storage directory"
+   		/>
+       
+       
+      
+  </PreferenceCategory>
+  
+  <PreferenceCategory
+     android:title="Cloud Storage Locations (SugarSync)">
+      
+        <EditTextPreference
+        android:key="mainsugarsyncdirectory"
+        android:title="Main Cloud Storage Directory"
+        android:summary=""
+        android:dialogTitle="Please choose your main sugarsync directory"
+    	/>
+       
+       <EditTextPreference
+        android:key="sugarsynclhiconfigfilesstoragedirectory"
+        android:title="Life Hack Innovations App Config Files Directory (SugarSync)"
+        android:summary=""
+        android:dialogTitle="Please choose your app files storage directory"
+   		/>
+       <EditTextPreference
+        android:key="sugarsyncprojectsstoragedirectory"
+        android:title="Life Hack Innovations Projects Directory (SugarSync)"
+        android:summary=""
+        android:dialogTitle="Please choose your projects storage directory"
+   		/>
+       <EditTextPreference
+        android:key="sugarsyncupdatedirectory"
+        android:title="Life Hack Innovations Updates Directory (SugarSync)"
+        android:summary=""
+        android:dialogTitle="Please choose your app update directory"
+   		/>
+       
+        
+       
+       
+      
+  </PreferenceCategory>
+  <PreferenceCategory
+     android:title="DCIM Storage Directory">
+      
+        <EditTextPreference
+        android:key="dcimdirectory"
+        android:title="DCIM Directory"
+        android:summary=""
+        android:dialogTitle="Please choose the folder where your default camera stores it's pictures"
+    	/>
+       
+     
+        
+       
+       
+      
+  </PreferenceCategory>
+<!--
+  <Preference
+    android:title="Intent"
+    android:summary="Open a webpage">
+
+    <intent
+      android:action="android.intent.action.VIEW"
+      android:data="http://android-elements.blogspot.com/" />
+
+  </Preference>
+    --> 
+</PreferenceScreen>

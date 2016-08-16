@@ -1,0 +1,82 @@
+\begin{landscape}
+
+\section{Energy Metering List}
+
+\DTLsetseparator{///}
+
+\DTLloadrawdb{table3}{./Chapters/metering.csv}
+\DTLloadrawdb{virtualmetertable}{./Chapters/Latex_virtualmeters.csv}
+
+\DTLloadrawdb{table4}{./Chapters/Latex_meteringBalm.csv}
+\DTLloadrawdb{table5}{./Chapters/Latex_ctbom.csv}
+
+
+
+
+
+
+
+\begin{table}[htbp]
+ \centering
+
+\begin{tabular}{cccccccccccccc}
+\rowcolors{2}{lhitabledeep}{lhitablelight}
+
+\renewcommand{\dtlheaderformat}{ \rowcolor{lhitabletitle}\color{white}}
+\renewcommand{\dtlstringformat}[1]{\begin{varwidth}[t]{5cm}#1\end{varwidth}}
+ 
+\resizebox{\linewidth}{!}{\DTLdisplaydb{table3}}
+\end{tabular}
+\end{table}
+
+
+\begin{table}[htbp]
+ \centering
+
+\begin{tabular}{cccc}
+\rowcolors{2}{lhitabledeep}{lhitablelight}
+
+\renewcommand{\dtlheaderformat}{ \rowcolor{lhitabletitle}\color{white}}
+\renewcommand{\dtlstringformat}[1]{\begin{varwidth}[t]{5cm}#1\end{varwidth}}
+ 
+\resizebox{\linewidth}{!}{\DTLdisplaydb{virtualmetertable}}
+\end{tabular}
+\end{table}
+
+
+
+
+
+\begin{table}[htbp]
+\raggedleft
+\begin{tabular}{cc}
+
+\rowcolors{2}{lhitabledeep}{lhitablelight}
+
+\renewcommand{\dtlheaderformat}{ \rowcolor{lhitabletitle}\color{white}}
+
+\DTLdisplaydb{table4}
+\end{tabular}
+\end{table}
+
+
+
+
+\begin{table}[htbp]
+\raggedleft
+\begin{tabular}{cc}
+
+\rowcolors{2}{lhitabledeep}{lhitablelight}
+
+\renewcommand{\dtlheaderformat}{ \rowcolor{lhitabletitle}\color{white}}
+
+\DTLdisplaydb{table5}
+\end{tabular}
+\end{table}
+
+
+
+
+
+
+\end{landscape}

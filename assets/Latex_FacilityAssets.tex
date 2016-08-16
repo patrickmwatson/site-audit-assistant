@@ -1,0 +1,15 @@
+\subsection{Systems Description}
+\DTLsetseparator{///}
+\DTLloadrawdb{table10}{./Chapters/Latex_Assets.csv}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{cccccccccccccc}
+
+\rowcolors{2}{lhitabledeep}{lhitablelight}
+
+ \renewcommand{\dtlheaderformat}{ \rowcolor{lhitabletitle}\color{white}}
+ 
+ \resizebox{\linewidth}{!}{\DTLdisplaydb{table10}}
+\end{tabular}
+\end{table}

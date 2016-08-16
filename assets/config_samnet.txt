@@ -1,0 +1,8 @@
+{
+   "enabled": true,
+   "mbtcpUnitId": modbusaddress,
+   "mbrtuUnitId": modbusaddress,
+   "comPort": 1,
+   "path": "1|modbuspath",
+   "note": ""
+  },

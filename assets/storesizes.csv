@@ -1,0 +1,507 @@
+default_store_number,location_number,building_name,optima_name,gross_internal_area_square_feet,_retail_area_square_feet
+001,6000199,London Chingford Salisbury Hall Gardens - Generic,LONDON CHINGFORD,72708,34371
+002,6000299,Bradford Bankfoot Mayo Avenue - Generic,BRADFORD MAYO AVENUE,78541,37778
+003,6000399,Bradford Idle Enterprise 5 - Generic,BRADFORD ENTERPRISE 5,115377,54779
+004,6000499,Bradford Girlington Victoria SC - Generic,BRADFORD VICTORIA,105434,49184
+005,6000599,Keighley Worth Way - Generic,KEIGHLEY,85218,37919
+006,6000699,Bradford Westgate - Generic,BRADFORD WESTGATE,29699,14283
+007,6000799,Yeadon High Street - Generic,LEEDS YEADON,65724,29477
+008,6000899,Bradford Thornbury Rushton Avenue - Generic,BRADFORD THORNBURY,81225,39833
+010,6001099,Leeds Merrion Centre Woodhouse Lane - Generic,LEEDS MERRION CENTRE,49088,28934
+011,6001199,Morley Windsor Court - Generic,LEEDS MORLEY,78693,33172
+014,6001499,Beverley Wingfield Way - Generic,BEVERLEY,73998,35482
+015,6001599,Leeds Hunslet Church Street - Generic,LEEDS HUNSLET,79094,37620
+017,6001799,Leeds Horsforth Town Street - Generic,LEEDS HORSFORTH,73471,23982
+019,6001999,Widnes Green Oaks Way - Generic,WIDNES GREEN OAKS,82700,38855
+021,6002199,St Helens Baxters Lane - Generic,ST. HELENS BAXTER LANE,72313,36405
+022,6002299,Failsworth Poplar Street - Generic,FAILSWORTH POPLAR STREET,75852,37125
+023,6002399,Mansfield Sutton Rd - Generic,MANSFIELD SUTTON ROAD,79837,38848
+024,6002499,Wolverhampton Bilston Black Country Route - Generic,WOLVERHAMPTON BILSTON,80236,38234
+025,6002599,Ince in Makerfield Makerfield Way - Generic,INCE IN MAKERFIELD WAY,74716,37727
+026,6002699,Darlington North Rd - Generic,DARLINGTON NORTH ROAD,79203,41590
+027,6002799,Staveley Barnfield Close - Generic,CHESTERFIELD STAVELEY,73998,36711
+028,6002899,Eccles Irwell Place - Generic,ECCLES IRWELL PLACE,60081,30443
+029,6002999,Rotherham Catcliffe Poplar Way - Generic,ROTHERHAM CATCLIFFE,77931,38955
+030,6003099,Grantham Isaac Newton Centre - Generic,GRANTHAM ISAAC NEWTON CENTRE,62600,34163
+031,6003199,Gainsborough Heapham Rd - Generic,GAINSBOROUGH HEAPHAM ROAD,59428,26950
+032,6003299,Heywood Dawson Street - Generic,HEYWOOD DAWSON STREET,70775,32147
+033,6003399,Wakefield Dewsbury Rd - Generic,WAKEFIELD DEWSBURY ROAD,72400,33797
+034,6003499,Wakefield Ridings Centre - Generic,WAKEFIELD RIDINGS CENTRE,47543,22245
+035,6003599,Newcastle UT Killingworth - Generic,NEWCASTLE U T KILLINGWORTH,82959,40303
+036,6003699,Guiseley Otley Rd - Generic,LEEDS GUISELEY,71287,34618
+037,6003799,Dukinfield Foundry Street - Generic,DUKINFIELD FOUNDRY STREET,80668,37094
+038,6003899,Blackburn Railway Rd - Generic,BLACKBURN RAILWAY ROAD,111622,41629
+039,6003999,Rotherham Bramley Bawtry Rd - Generic,ROTHERHAM BRAMLEY,86725,38164
+040,6004099,Bishop Auckland Bob Hardisty Drive - Generic,BISHOP AUCKLAND,77598,36604
+041,6004199,Preston Riversway Mariners Way - Generic,PRESTON RIVERSWAY,79824,43559
+042,6004299,Heckmondwike Union Street - Generic,HECKMONDWIKE UNION STREET,72775,37445
+043,6004399,Wigan The Galleries - Generic,WIGAN GALLERIES,39834,15900
+044,6004499,Carlisle Kingstown Rd - Generic,CARLISLE KINGSTOWN ROAD,87584,45094
+045,6004599,Bolton Dawes Blackhorse Street - Generic,BOLTON DAWES STREET,72376,34996
+046,6004699,Stamford Uffington Rd - Generic,STAMFORD UFFINGTON ROAD,85599,41602
+047,6004799,Sunderland Seaburn Whitburn Rd - Generic,SUNDERLAND SEABURN,78144,37995
+048,6004899,Newark Kings Rd - Generic,NEWARK KINGS ROAD,71287,34111
+049,6004999,Telford Wellington Spring Hill - Generic,TELFORD WELLINGTON,81350,37779
+050,6005099,Stoke Ridgeway Drive - Generic,STOKE FESTIVAL PARK,89109,43895
+051,6005199,Pontefract Stuart Rd - Generic,PONTEFRACT STUART ROAD,86091,32651
+052,6005299,Sheffield Hillsborough Penistone Rd - Generic,SHEFFIELD HILLSBOROUGH,110212,55208
+053,6005399,Rochdale Kingsway - Generic,ROCHDALE KINGSWAY,78459,39439
+054,6005499,Coalville Whitwick Rd - Generic,COALVILLE WHITWICK ROAD,77618,37327
+055,6005599,Kendal Old Showground - Generic,KENDAL OLD SHOWGROUND,74455,33400
+056,6005699,Skipton Broughton Rd - Generic,SKIPTON BROUGHTON ROAD,72041,33202
+057,6005799,Chadderton Hollinwood Avenue - Generic,OLDHAM CHADDERTON,78885,38565
+058,6005899,Stockton Thornaby - Generic,STOCKTON THORNABY,76200,37864
+059,6005999,Bolton Atlas Mills Mornington Rd - Generic,BOLTON ATLAS MILLS,75918,34880
+060,6006099,Chorley Brooke Street - Generic,CHORLEY BROOKE STREET,69976,31611
+061,6006199,Rotherham Parkgate - Generic,ROTHERHAM PARKGATE,89795,43650
+062,6006299,Lincoln Triton Rd - Generic,LINCOLN TRITTON ROAD,77961,35133
+063,6006399,Walsall Wallows Lane - Generic,WALSALL WALLOWS LANE,78459,36761
+064,6006499,Tynemouth Preston Grange - Generic,TYNEMOUTH PRESTON GRANGE,84593,41429
+065,6006599,Harrogate Starbeck Hookstone Chase - Generic,HARROGATE STARBECK,76317,34294
+066,6006699,Blackpool Squires Gate Lane - Generic,BLACKPOOL SQUIRES GATE,81127,39973
+067,6006799,Nottingham Netherfield Victoria Parkway - Generic,NOTTINGHAM NETHERFIELD,79903,38889
+068,6006899,Shrewsbury Whitchurch Street - Generic,SHREWSBURY WHITCHURCH ROAD,69535,32369
+069,6006999,Coventry Binley - Generic,COVENTRY BINLEY,78543,40100
+070,6007099,Scunthorpe Lakeside Parkway - Generic,SCUNTHORPE LAKESIDE PARKWAY,80827,38658
+071,6007199,Warrington Greenalls Avenue - Generic,WARRINGTON GREENALLS AVE,81210,40629
+072,6007299,Sheffield Ecclesfield The Common - Generic,SHEFFIELD ECCLESFIELD,70664,32269
+073,6007399,Tamworth Marlborough Way - Generic,TAMWORTH MARLBOROUGH WAY,74907,36971
+074,6007499,Morecambe Central Drive - Generic,MORECAMBE CENTRAL DRIVE,82063,40861
+075,6007599,Laceby (Cleethorpes) Hilmore Rd - Generic,CLEETHORPES LACEBY,80794,38542
+076,6007699,Scarborough Eastfield Dunslow Rd - Generic,SCARBOROUGH EASTFIELD,80127,36812
+077,6007799,Winsford Nat Lane - Generic,WINSFORD WHARTON,81750,38731
+078,6007899,Derby Wheatcroft Way - Generic,DERBY WHEATCROFT WAY,83818,40811
+079,6007999,Huddersfield Waterloo Penistone Rd - Generic,HUDDERSFIELD WATERLOO,77102,37996
+080,6008099,Redcar Lord Street - Generic,REDCAR LORD STREET,72078,30794
+081,6008199,Ipswich Sproughton Rd - Generic,IPSWICH SPROUGHTON ROAD,82618,39167
+082,6008299,Barry Penny Way - Generic,BARRY HEOL CEINIOG,71570,34009
+083,6008399,Spalding Pinchbeck Wardentree Lane - Generic,SPALDING PINCHBECK,68665,32481
+084,6008499,Bristol Cribbs Causeway - Generic,BRISTOL CRIBBS CAUSEWAY,73398,36102
+085,6008599,Grays London Rd - Generic,GRAYS LONDON ROAD,73088,36462
+086,6008699,Dereham Station Rd - Generic,DEREHAM,79484,37545
+087,6008799,Newport (Gwent) Rogerstone Azalea Rd - Generic,NEWPORT GWENT ROGERSTONE,70074,30785
+088,6008899,Jarrow Viking Precinct - Generic,JARROW VIKING PRECINCT,73820,34461
+089,6008999,Leeds Kirkstall Savins Mill Way - Generic,LEEDS KIRKSTALL,80256,39140
+090,6009099,Birmingham Small Heath - Generic,BIRMINGHAM SMALL HEATH,81733,40128
+091,6009199,Newcastle UT Byker Shields Rd - Generic,NEWCASTLE U TYNE BYKER,69597,33615
+092,6009299,London Enfield Southbury Rd - Generic,LONDON ENFIELD,69891,31197
+093,6009399,Denton Saxon Way - Generic,DENTON,83680,40138
+094,6009499,Barrow In Furness The Strand - Generic,BARROW STRAND,79324,39568
+095,6009599,Ebbw Vale Beaufort Rd - Generic,EBBW VALE BEAUFORT ROAD,76467,34574
+096,6009699,Port Talbot Baglan Christchurch Rd - Generic,PORT TALBOT BAGLAN,85874,39687
+097,6009799,Liverpool Belle Vale Besford Rd - Generic,LIVERPOOL BELLE VALE,74918,35990
+098,6009899,Barnsley Westway - Generic,BARNSLEY WESTWAY,73550,36102
+099,6009999,Milton Keynes Barnsdale Drive - Generic,Milton Keynes Westcroft,92614,43627
+100,6010099,Northampton Victoria Promenade - Generic,NORTHAMPTON VICTORIA PROM,81925,38842
+101,6010199,Sheffield Halfway Oxclose Park Rd - Generic,SHEFFIELD HALFWAY,78885,36983
+102,6010299,Sunderland Doxford Park - Generic,SUNDERLAND DOXFORD PARK,80988,38713
+103,6010399,Kings Lynn Coburg Street - Generic,KINGS LYNN COBURG STREET,74173,36034
+104,6010499,Nelson Pendle Street - Generic,NELSON PENDLE STREET,70761,34903
+105,6010599,St Helens Boundary Rd - Generic,ST. HELENS BOUNDARY ROAD,71541,31046
+106,6010699,Banbury Swan Close Rd - Generic,BANBURY SWAN CLOSE,72598,32683
+107,6010799,Hull Anlaby Springfield Way - Generic,HULL ANLABY,75413,36231
+108,6010899,Boroughbridge Wetherby Rd - Generic,BOROUGHBRIDGE WETHERBY ROAD,67003,35162
+109,6010999,Hull Holderness Rd - Generic,HULL HOLDERNESS ROAD,74668,34272
+110,6011099,Wetherby Horsefair - Generic,WETHERBY HORSEFAIR,66834,35069
+111,6011199,Kettering Lower Street - Generic,KETTERING LOWER STREET,88702,40101
+112,6011299,Barnsley Brampton - Generic,BARNSLEY BRAMPTON,83222,40443
+113,6011399,London Erith James Watt Way - Generic,LONDON ERITH,92270,43367
+114,6011499,Retford Idle Valley Rd - Generic,RETFORD IDLE VALLEY ROAD,73193,32643
+115,6011599,Norwich Albion Way - Generic,NORWICH RIVERSIDE,83200,40120
+116,6011699,Wellingborough Oxford Street - Generic,WELLINGBOROUGH OXFORD STREET,84029,39690
+117,6011799,Kilmarnock West Langlands Street - Generic,KILMARNOCK WEST LANGLANDS ST,84970,40117
+118,6011899,Cambridge Cambourne BRd Street - Generic,CAMBRIDGE CAMBOURNE,63744,32217
+119,6011999,Hyde Mottram Rd - Generic,HYDE MOTTRAM ROAD,131181,40591
+120,6012099,Crewe Dunwoody Way - Generic,CREWE DUNWOODY WAY,82017,39833
+121,6012199,Nottingham Bulwell Leen Drive - Generic,NOTTINGHAM BULWELL,78620,38045
+122,6012299,Cheadle Cheadle Heath Edgley Rd - Generic,STOCKPORT CHEADLE HEATH,85089,43576
+123,6012399,Doncaster York Rd - Generic,DONCASTER YORK ROAD,83810,39489
+124,6012499,Darlington Morton Park - Generic,DARLINGTON MORTON PARK,87706,42646
+125,6012599,Burton u Trent Wellington Rd - Generic,BURTON-U-TRENT WELLINGTON ROAD,87457,42712
+126,6012699,Letchworth BRdway - Generic,LETCHWORTH BROADWAY,78167,32350
+127,6012799,Newcastle u Lyme Lower Milehouse Lane - Generic,NEWCASTLE UNDER LYME,71986,33799
+128,6012899,Middlesbrough Berwick Hills - Generic,MIDDLESBOROUGH BERWICK HILLS,84501,38918
+129,6012999,Rhyl Marsh Rd - Generic,RHYL MARSH ROAD,71212,35049
+130,6013099,Swansea Brunel Way - Generic,SWANSEA,87370,40074
+131,6013199,Chester Liverpool Rd - Generic,Chester Liverpool Road,60923,29730
+132,6013299,Hartlepool Clarence Rd - Generic,HARTLEPOOL,82700,40138
+133,6013399,Ripon Harrogate Rd - Generic,Ripon Quarry Moor,45612,21420
+134,6013499,Southport Winter Gardens - Generic,Southport Lord Street,70767,33587
+135,6013599,Falkirk Hope Street - Generic,FALKIRK,80602,40333
+136,6013699,Glasgow Cardonald - Generic,GLASGOW CARDONALD,63007,28223
+137,6013799,Leeds Swinnow Rd - Generic,Leeds Swinnow Road,56436,27156
+138,6013899,Speke - Generic,SPEKE,82721,42012
+139,6013999,Paisley Anchor - Generic,PAISLEY ANCHOR MILL,76650,36436
+140,6014099,Strood Rochester Knight Rd - Generic,STROOD,78922,36049
+142,6014299,Gloucester Abbeydale - Generic,GLOUCESTER ABBEYDALE,65763,27890
+143,6014399,Hartcliffe - Generic,BRISTOL HARTCLIFFE,81131,40650
+144,6014499,Knottingley Marine Villa Rd - Generic,KNOTTINGLEY,77350,36361
+145,6014599,Dundee - Generic,DUNDEE Afton Way,86953,42321
+146,6014699,West Denton - Newcastle - Generic,WEST DENTON,81638,36878
+147,6014799,Granton - Generic,EDINBURGH GRANTON,82385,40393
+148,6014899,Hamilton New Park Street - Generic,HAMILTON,86360,40117
+149,6014999,Whitefield - Generic,WHITEFIELD,85827,37088
+150,6015099,Livingston Dedridge North Rd - Generic,LIVINGSTON DEDRIDGE,56222,39998
+151,6015199,Leyland - Generic,LEYLAND OLYMPIAN,83614,40613
+152,6015299,Glasgow Easterhouse Auchinlea Park - Generic,AUCHINLEA,85089,40053
+153,6015399,Wednesbury - Generic,WEDNESBURY,81968,36750
+155,6015599,"York, Foss Island - Generic",YORK FOSSE ISLAND,77834,35973
+156,6015699,Johnston - Generic,JOHNSTONE,82985,36602
+157,6015799,Cardiff-Sports Villiage - Generic,CARDIFF,78900,36791
+158,6015899,Crowborough - Generic,CROWBOROUGH PINE GROVE,58516,28938
+159,6015999,Swadlincote - Generic,SWADLINCOTE,82318,36396
+160,6016099,Aberdeen King St - Generic,Aberdeen King Street,64155,29650
+161,6016199,Airdrie Gartlea Rd - Generic,Airdrie Gartlea Road,67667,33047
+162,6016299,Alloa Clackmannan Rd - Generic,Alloa Clackamannan Road,49622,22988
+163,6016399,Alness Dalmare Rd - Generic,Alness,32668,16726
+164,6016499,Arbroath Hume St - Generic,Arbroath Hume Street,49581,22460
+165,6016599,Ayr Castlehill Rd - Generic,Ayr Castlehill Road,59995,26587
+167,6016799,Bellshill John St - Generic,Bellshill John Street,40260,20421
+168,6016899,Berwick UT North Rd - Generic,Berwick Upon Tweed Nrth Rd,47577,20301
+169,6016999,Dumbarton Glasgow Rd - Generic,Dumbarton Glasgow Road,63550,30663
+170,6017099,Dumfries Brooms Rd - Generic,Dumfries Brooms Road,57699,34706
+171,6017199,East Kilbride Lindsayfield Greenhills Rd - Generic,East Kilbride Lindsayfield,70849,34261
+172,6017299,East Kilbride Stewartfield Macneish Way - Generic,East Kilbride Stewartfield,49718,26350
+173,6017399,Edinburgh Ferry Rd - Generic,Edinburgh Ferry Road,58263,27764
+174,6017499,Edinburgh Hunters Tryst - Generic,Edinburgh Hunters Tryst,44848,22931
+175,6017599,Edinburgh Moredun - Generic,Edinburgh Moredun,52256,24861
+176,6017699,Edinburgh Portobello Rd - Generic,Edinburgh Portobello Road,63664,25135
+177,6017799,Edinburgh South Gyle - Generic,Edinburgh South Gyle,84888,39412
+178,6017899,Fort William An Aird - Generic,Fort William An Aird,47876,25249
+179,6017999,Glasgow Anniesland Crow Rd - Generic,Glasgow Anniesland,100139,49257
+180,6018099,Glasgow Baillieston Ravenswood Rd - Generic,Glasgow Baillieston,52106,25708
+181,6018199,Glasgow Bishopbriggs Kirkintilloch Rd - Generic,Glasgow Bishopbriggs,41861,20225
+182,6018299,Glasgow Cambuslang Bridge Street - Generic,Glasgow Cambuslang,51140,24608
+183,6018399,Glasgow Newlands Riverford Rd - Generic,Glasgow Newlands,69482,31535
+184,6018499,Glenrothes Flemington Rd - Generic,Glenrothes Flemington Road,73970,32372
+185,6018599,Greenock Rue End St - Generic,Greenock Rue End Street,51063,24776
+187,6018799,Hawick Mart St - Generic,Hawick Mart Street,59119,27157
+188,6018899,Inverness Millburn Rd - Generic,Inverness Milburn Road,71852,32544
+189,6018999,Inverurie Blackhall Rd - Generic,Inverurie Blackhall Road,39299,20278
+190,6019099,Largs Irvine Rd - Generic,Largs Irvine Road,33627,15667
+192,6019299,Paisley Falside Rd - Generic,Paisley Falside Road,43558,21616
+193,6019399,Perth Caledonian Rd - Generic,Perth Caledonian Road,53425,25046
+194,6019499,Peterhead Queen St - Generic,Peterhead Queen Street,48804,22521
+195,6019599,St Andrews Largo Rd - Generic,St. Andrews Largo Road,41251,20655
+196,6019699,Stevenston Kilwinning Rd - Generic,Stevenston Kilwinning Road,53513,24331
+197,6019799,Stirling Munroe Rd - Generic,Stirling Munro Road,67353,31353
+198,6019899,Stranraer London Rd - Generic,Stranraer London Road,39535,19196
+199,6019999,Troon Dukes Rd - Generic,Troon Dukes Road,51155,22990
+200,6020099,Wishaw Kirk Rd - Generic,Wishaw Kirk Road,36577,16852
+201,6020199,Alnwick Fenkle St - Generic,Alnwick Fenkle Street,31617,14897
+202,6020299,Barnard Castle Galgate - Generic,Barnard Castle Galgate,30021,13068
+203,6020399,Blyth Regent Street - Generic,Blyth Regent Street,44000,19399
+204,6020499,Consett Front Street - Generic,Consett Front Street,35739,20599
+206,6020699,Newcastle UT Cowgate Two Ball Lonnen - Generic,Newcastle u Tyne Cowgate,44065,23792
+207,6020799,Whitley Bay Hillheads Rd - Generic,Whitley Bay Hillheads Road,47344,25771
+208,6020899,Buxton Bakewell Rd - Generic,Buxton Bakewell Road,39822,16964
+209,6020999,Chapel en le Frith Market St - Generic,Chapel En Le Frith Market Sq,32844,14931
+210,6021099,Ellesmere Port Chester Rd - Generic,Ellesmere Port Chester Rd,64736,31618
+212,6021299,Bolton Harwood Lee Gate - Generic,Harwood Lea Gate,49292,20920
+213,6021399,Ormskirk Park Rd - Generic,Ormskirk Park Road,47792,22756
+214,6021499,Penrith Brunswick Rd - Generic,Penrith Brunswick Road,57271,29869
+215,6021599,Stockport Bredbury Stockport Rd West - Generic,Stockport Bredbury,68031,32371
+216,6021699,Stockport Reddish Rd - Generic,Stockport Reddish,52604,26541
+217,6021799,Swinton Swinton Hall Rd - Generic,Swinton Swinton Hall Road,53971,24473
+218,6021899,Cleveleys Amounderness Way - Generic,Thornton Cleveleys,71906,36284
+219,6021999,Todmorden Rochdale Rd - Generic,Todmorden Rochdale Road,25976,12882
+220,6022099,West Kirby Dee Lane - Generic,West Kirby Dee Lane,45247,17193
+221,6022199,Whitehaven Flatt Walks - Generic,Whitehaven Flatt Walks,50537,23960
+223,6022399,Workington Derwent Drive - Generic,Workington Derwent Retail Park,46993,27007
+224,6022499,Bridlington Bessingby Rd - Generic,Bridlington Bessingby Road,49587,21807
+225,6022599,Chesterfield Chatsworth Rd - Generic,Chesterfield Chatsworth Road,55703,24014
+226,6022699,Malton Castlegate - Generic,Malton Castlegate,36382,19741
+227,6022799,Meltham Station St - Generic,Meltham Station Street,29040,13196
+228,6022899,Selby Market Cross - Generic,Selby Market Cross,48255,24165
+229,6022999,Sheffield Meadowhead - Generic,Sheffield Meadowhead,50923,23368
+230,6023099,York Acomb Front Street - Generic,York Acomb,38041,20996
+231,6023199,Belper Chapel Street - Generic,Belper Chapel Street,46188,28842
+232,6023299,Corby Oakley Rd - Generic,Corby Snatch Hill,57316,25058
+233,6023399,Hinckley Stoke Rd - Generic,Hinckley Stoke Road,72592,33042
+234,6023499,Leicester Aylestone Rd - Generic,Leicester Freemans Park,64737,33154
+235,6023599,Loughborough Maxwell Rd - Generic,Loughborough Thorpe Acre,41850,20634
+236,6023699,Melton Mowbray Sherrard St - Generic,Melton Mowbray Sherrard Street,40148,20450
+237,6023799,Northampton Kettering Rd - Generic,Northampton Kettering Road,72241,35760
+238,6023899,Nottingham Gamston Lings Bar Rd - Generic,Nottingham Gamston,93135,43781
+239,6023999,Eastwood Derby Rd - Generic,Nottingham Eastwood,49018,26682
+240,6024099,Aberystwyth Llanbadarn Fawr - Generic,Aberystwyth Parc Y Llyn,59675,28319
+241,6024199,Aldridge Anchor Rd - Generic,Aldridge Anchor Road,50257,19719
+242,6024299,Bromsgrove Bruntsford Park Rd - Generic,Bromsgrove Buntsford Ind Park,54795,30439
+243,6024399,Burntwood High St - Generic,Burntwood High Street,48689,31308
+244,6024499,Cannock Mill Street - Generic,Cannock Mill Street,54165,23874
+245,6024599,Birmingham Castle Bromwich Chester Rd - Generic,Castle Bromwich Hurst Lane,48941,29165
+246,6024699,Coventry Holyhead Rd - Generic,Coventry Holyhead Road,76938,36820
+247,6024799,Evesham Davies Rd - Generic,Evesham Four pools Estate,52151,24734
+248,6024899,Hereford Commercial Rd - Generic,Hereford Commercial Road,59344,26218
+250,6025099,Dudley Kingswinford - Generic,Kingswinford Stallings Lane,38685,21108
+251,6025199,Leek Barnfield Close - Generic,Leek Barnfield Close,38889,31594
+252,6025299,Leominster Barons Cross Rd - Generic,Leominster Barons Cross Road,51506,27505
+253,6025399,Lichfield Beacon St - Generic,Lichfield Beacon Street,49681,25662
+254,6025499,Malvern Roman Way - Generic,Malvern Roman Way,73419,35759
+255,6025599,Nantwich Station Rd - Generic,Nantwich Station Road,39631,19170
+256,6025699,Newcastle UL Goose St - Generic,Newcastle U Lyme Goose Street,62792,30223
+257,6025799,Redditch Warwick Highway - Generic,Redditch Warwick Highway,69280,34923
+258,6025899,Ross on Wye Station St - Generic,Ross On Wye Station Road,37727,21151
+259,6025999,Birmingham Rubery Bristol Rd South - Generic,Rubery Bristol Road South,88034,40098
+260,6026099,Rugeley Market St - Generic,Rugeley Market Street,40084,17276
+261,6026199,Solihull George Rd - Generic,Solihull Warwick Road,50962,20802
+262,6026299,Stone Mill St - Generic,Stone Mill Street,39384,19704
+263,6026399,Stratford UA Alcester Rd - Generic,Stratford U Avon Alcester Road,80075,36279
+264,6026499,Walsall Lichfield St - Generic,Walsall Lichfield Street,45138,26566
+265,6026599,Bangor Holyhead Rd - Generic,Bangor Holyhead Road,41408,20636
+266,6026699,Brecon Free St - Generic,Brecon Free Street,33861,16101
+267,6026799,Caernarfon North Rd - Generic,Caernarfon North Road,36288,19819
+268,6026899,Caerphilly Castle Court - Generic,Caerphilly Castle Court,54354,26280
+269,6026999,Cardiff Ty Glas Rd - Generic,Cardiff Ty Glas Road,47255,24658
+270,6027099,Carmarthen Parc Pensarn Llanelli Rd - Generic,Carmarthen Llanelli Road,55758,27052
+271,6027199,Colwyn Bay Sea View Rd - Generic,Colwyn Bay Sea View Road,36830,18166
+272,6027299,Denbigh Smithfield Rd - Generic,Denbigh Smithfield Road,32157,15718
+273,6027399,Haverfordwest Bridge Meadow Lane - Generic,Haverfordwest Bridge Meadow,54659,27627
+274,6027499,Neath Angel Street - Generic,Neath Castle Street,50774,26102
+275,6027599,Beccles George Westwood Way - Generic,Beccles George Westwood Way,38707,20971
+276,6027699,Canvey Island Northwick Rd - Generic,Canvey Island Northwick Road,51817,34950
+277,6027799,Little Clacton Centenary Way - Generic,Little Clacton,50580,24079
+278,6027899,Clacton Waterglade Retail Park - Generic,Clacton Waterglade,43027,23368
+279,6027999,Cromer Holt Rd - Generic,Cromer Holt Road,44014,20904
+280,6028099,Diss Victoria Rd - Generic,Diss Victoria Road,75122,36767
+281,6028199,Southend Eastwood - Generic,Eastwood Western Approaches,25335,14832
+282,6028299,Fakenham Clipbush Lane - Generic,Fakenham Clipbush Lane,46910,25783
+283,6028399,Felixstowe Grange Farm Avenue - Generic,Felixstowe Cavendish Park,38120,20435
+284,6028499,Hadleigh London Rd - Generic,Hadleigh London Road,31581,16877
+285,6028599,Harwich Garland Rd - Generic,Harwich Iconfield Park,42270,18966
+286,6028699,Lowestoft Tower Rd - Generic,Lowestoft Tower Road,51681,24922
+287,6028799,Maldon Limebrook Way - Generic,Maldon Limebrook Way,49172,22098
+288,6028899,Peterborough Lincoln Rd - Generic,Peterborough Lincoln Road,64844,29235
+289,6028999,Skegness Wainfleet Rd - Generic,Skegness Wainfleet Road,50065,20150
+290,6029099,Witham Braintree Rd - Generic,Witham Braintree Road,46820,20430
+291,6029199,Aylesbury Station Way - Generic,Aylesbury Station Way,57834,30279
+293,6029399,Canterbury Ten Perch Rd - Generic,Canterbury Ten Perch Road,66715,30343
+294,6029499,Caterham Church Walk - Generic,Caterham Church Walk,42824,21391
+295,6029599,Chatham Walderslade Princes Av - Generic,Chatham Princes Avenue,39863,20602
+296,6029699,London Becontree Heath Wood Lane - Generic,Dagenham Wood Lane,43702,21764
+297,6029799,Folkestone Cheriton Rd - Generic,Folkestone Cheriton Road,48287,24746
+298,6029899,Gravesend Cold Harbour Rd - Generic,Gravesend Coldharbour Road,55811,34580
+299,6029999,London Harrow Hatch End - Generic,Hatch End Uxbridge Road,55714,30171
+300,6030099,High Wycombe Temple End - Generic,High Wycombe Temple End,54293,23766
+301,6030199,Leighton Buzzard Lake St - Generic,Leighton Buzzard Lake St,49578,26078
+302,6030299,London Acton King Street - Generic,London Acton,47555,23454
+303,6030399,London Camden Town Chalk Farm Rd - Generic,London Camden Town,58212,25681
+304,6030499,London Holloway Hertslet Rd - Generic,London Holloway,51494,24434
+305,6030599,London Palmers Green Aldermans Hill - Generic,London Palmers Green,43389,22755
+306,6030699,London Peckham Rye Lane - Generic,London Peckham,51538,28438
+307,6030799,London Queensbury Honeypot Lane - Generic,London Queensbury,63529,30570
+308,6030899,London Shepherds Bush - Generic,London Shepherds Bush,41129,19762
+309,6030999,London Stratford The Grove - Generic,London Stratford,51860,28968
+310,6031099,Streatham- Generic,Streatham,40616,15385
+311,6031199,London Thamesmead Twin Tumps Way - Generic,London Thamesmead,85304,40687
+313,6031399,London Wood Green High Rd - Generic,London Wood Green,57070,24842
+314,6031499,Loughton High Rd - Generic,Loughton High Road,48427,22098
+315,6031599,Maidstone Sutton Rd - Generic,Maidstone Sutton Road,67747,34615
+316,6031699,London Sidcup Jenner Close - Generic,Sidcup Jenner Close,54928,22763
+317,6031799,St Albans Hatfield Rd - Generic,St. Albans Hatfield Road,66252,28653
+318,6031899,London Sutton 31 High St - Generic,Sutton Cheam Road,79269,32492
+319,6031999,Welwyn Garden City Black Fan Rd - Generic,Welwyn G City Black Fan Road,57988,27430
+320,6032099,Bath London Rd - Generic,Bath London Road,41193,19267
+321,6032199,Bideford Kingsley Rd - Generic,Bideford Kingsley Road,56101,34314
+322,6032299,Bodmin Priory Rd - Generic,Bodmin Priory Road,47996,21883
+323,6032399,Bridgwater The BRdway - Generic,Bridgewater The Broadway,54677,27548
+324,6032499,Bristol Fishponds Rd - Generic,Bristol Fishponds,61840,26980
+325,6032599,Bude Stucley Rd - Generic,Bude Stuckley Road,50739,24096
+326,6032699,Cheltenham Up Hatherley Caernarfon Rd - Generic,Cheltenham Up Hatherley,52743,25478
+327,6032799,Glastonbury Street Rd - Generic,Glastonbury Street Road,40924,22689
+328,6032899,Liskeard Plymouth Rd - Generic,Liskeard Horningtops,56797,26533
+329,6032999,Newquay Treloggan Rd - Generic,Newquay Treloggan Road,56778,33627
+330,6033099,Paignton Totnes Rd - Generic,Paignton Totnes Road,62510,31279
+331,6033199,Penzance Longrock Eastern Way - Generic,Penzance Long Rock,49773,24767
+332,6033299,Plymouth Outland Rd - Generic,Plymouth Outland Road,57495,27982
+333,6033399,Plymstock Billacombe Rd - Generic,Plymstock Pomphlett Road,98318,44926
+334,6033499,Redruth Agor Rd - Generic,Redruth Agar Road,49233,21451
+335,6033599,Taunton Priory Bridge Rd - Generic,Taunton Priory Bridge,59739,24692
+336,6033699,Tavistock Plymouth Rd - Generic,Tavistock Plymouth Road,45068,24197
+337,6033799,Tewkesbury Ashchurch Rd - Generic,Tewkesbury Ashchurch Road,48900,22055
+338,6033899,Tiverton Kennedy Way - Generic,Tiverton Kennedy Way,47231,25410
+339,6033999,Totnes Coronation Rd - Generic,Totnes Coronation Road,48115,21689
+340,6034099,Warminster Weymouth St - Generic,Warminster Weymouth Street,44380,20290
+341,6034199,Weston Super Mare Summer Ln - Generic,Weston Super Mare Summer Lane,65057,31680
+342,6034299,Wincanton Southgate Rd - Generic,Wincanton Aldermeads,47232,23497
+343,6034399,Yate Station Rd - Generic,Yate Station Road,47403,28216
+344,6034499,Yeovil Lysander Rd - Generic,Yeovil Lysander Road,54358,26447
+345,6034599,Basingstoke Worthing Rd - Generic,Basingstoke Thorneycroft,74628,35501
+346,6034699,Bracknell The Peel Centre - Generic,Bracknell The Peel Centre,42474,22841
+347,6034799,Bridport West Bay Rd - Generic,Bridport Asker Meadows,50128,24714
+348,6034899,Chippenham Cepen Park North - Generic,Chippenham Cepan Park North,71710,36345
+349,6034999,Devizes Estcourt St - Generic,Devizes Estate Court Street,43927,21151
+351,6035199,Farnborough Summit Avenue - Generic,Farnborough Southwood,45198,21614
+352,6035299,Gosport Walpole Rd - Generic,Gosport Walpole Road,47038,20677
+353,6035399,Hastings Queens Rd - Generic,Hastings Queens Road,53733,33523
+354,6035499,Horndean Lakesmere Rd - Generic,Horndean Lakesmere Road,58324,30607
+355,6035599,Newport (IOW) South Street - Generic,Newport IOW South Street,53507,28901
+356,6035699,Oxted East Hill - Generic,Oxted Station Yard,54024,22216
+358,6035899,Portsmouth Anchorage Pk - Generic,Portsmouth Anchorage Park,36220,18083
+359,6035999,Reading Rose Kiln Way - Generic,Reading Basingstoke Lane,80051,39966
+360,6036099,Reigate Bell St - Generic,Reigate Bell Street,51182,20796
+361,6036199,Sandown Lake Newport Rd - Generic,Sandown Lake IOW,36629,16382
+362,6036299,Seaford Dane Rd - Generic,Seaford Dane Road,37394,18524
+363,6036399,Swindon Haydon Wick Thames Avenue - Generic,Swindon Haydon Wick,34778,20096
+364,6036499,Totton Spruce Drive - Generic,Totton Hounsdown,64521,32309
+366,6036699,Weymouth Dorchester Rd - Generic,Weymouth Dorchester Road,59694,31034
+367,6036799,Woking Goldsworth Rd - Generic,Woking Goldsworth Road,65857,29457
+374,6037499,Glasgow Crossmyloof Titwood Rd - Generic,Glasgow Crossmyloof,38750,18621
+375,6037599,Glasgow Partick Merkland Court Generic,Glasgow Partick,31904,16189
+379,6037999,Livingston Carmondean Ctre - Generic,Livingston Carmondean Centre,33551,15952
+381,6038199,Morpeth Stanley Terrace - Generic,Morpeth Stanley Terrace,30957,15896
+383,6038399,Manchester Chorlton Cum Hardy Wilbraham Rd - Generic,Chorlton CumHardy Wilbraham Rd,32840,16641
+384,6038499,Kirkham Poulton St - Generic,Kirkham Poulton Street,30968,15403
+387,6038799,Lutterworth Bitteswell Rd - Generic,Lutterworth Bitteswell Road,33260,16382
+392,6039299,Congleton Princess St - Generic,Congleton Princess Street,36597,17502
+393,6039399,Droitwich Spa Cover Croft Rd - Generic,Droitwich St Andrews Centre,29540,15249
+395,6039599,Market Drayton Maer Rd - Generic,Market Drayton Adderley Road,35631,16084
+397,6039799,Newtown Pool Rd - Generic,Newtown Pool Road,38143,20561
+399,6039999,Solihull Shirley - Generic,Solihull Shirley,34137,17260
+401,6040199,Wolverhampton Pendeford Blaydon Rd - Generic,Wolverhampton Pendeford,32267,15952
+402,6040299,Herne Bay Beach St - Generic,Herne Bay Beach Street,30630,16502
+410,6041099,London Stoke Newington Stamford Hill - Generic,London Stamford Hill,38506,21502
+411,6041199,London Wimbledon - Generic,London Wimbledon,41467,17172
+413,6041399,London Petts Wood Queensway - Generic,Petts Wood Queensway,35735,16373
+418,6041899,Clevedon Triangle Ctre - Generic,Clevedon Triangle Centre,31058,14930
+419,6041999,Leeds - Rothwell - Generic,LEEDS ROTHWELL (new),79894,36674
+423,6042399,Blandford West Street - Generic,Blandford,29993,13627
+424,6042499,Bognor Regis Bedford St - Generic,Bognor Regis Bedford Street,37517,17946
+425,6042599,Holyhead - Generic,HOLYHEAD PENRHOS,64209,31929
+429,6042999,Fleet Elvethom Heath - Generic,Fleet,39740,17554
+435,6043599,Verwood Verwood Centre - Generic,Verwood Centre,29972,16919
+436,6043699,Wokingham Woosehill - Generic,Wokingham Woosehill,33009,16973
+438,6043899,Erskine - Generic,ERSKINE BRIDGEWATER 2,49327,24831
+439,6043999,Gorelston - Generic,GREAT YARMOUTH GORLESTON,39924,17285
+441,6044199,Dover Bridge Street - Generic,DOVER Bridge Street,51425,25235
+442,6044299,Willenhall West Midlands - Generic,WILLENHALL,78671,36682
+447,6044799,Welling - Generic,WELLING,67673,31366
+448,6044899,Nottingham Clifton - Generic,NOTTINGHAM CLIFTON,33618,17213
+449,6044999,Yiewsley Generic,YIEWSLEY West Drayton,36124,14149
+452,6045299,Gibraltar Westside Rd - Generic,Gibraltar Westside,67618,30028
+472,6047299,Mansfield New Store Generic,MANSFIELD WOODHOUSE,43608,19792
+474,6047499,Chester Le Street Generic,Chester-Le-Street,28268,16377
+475,6047599,Halifax Illingworth Generic,HALIFAX ILLINGWORTH (NEW),54718,25988
+478,6047899,Birtley,CEBNS Birtley New,,
+479,6047999,Brentford Generic,Brentford,31937,16339
+480,6048099,Brighton Generic,Brighton St James,30128,13702
+481,6048199,Burnham on Sea Generic,Burnham on Sea,29710,14560
+483,6048399,Camberwell Green Generic,London Camberwell,23380,12439
+484,6048499,Cheadle Generic,Cheadle Well Street,28216,14926
+485,6048599,Chelmsford Generic,Chelmsford,40339,18425
+486,6048699,Corringham Generic,Corringham,22218,11851
+487,6048799,Cowdenbeath Generic,Cowdenbeath,22263,11084
+488,6048899,Crawley Generic,Crawley,34593,10089
+490,6049099,Crediton Generic,Crediton,28706,12174
+491,6049199,Downham Market Generic,Downham Market,27417,12435
+492,6049299,Dunoon Generic,Dunoon,22389,11143
+496,6049699,Exeter Generic,Exeter,33748,14736
+497,6049799,Frodsham Generic,Frodsham,29773,13646
+498,6049899,Hounslow Generic,Hounslow,36425,19360
+499,6049999,Kingsbridge Generic,Kingsbridge,26775,12297
+500,6050099,Lanark Generic,Lanark,23576,11670
+520,6052099,Faversham Generic,Faversham,26815,12462
+527,6052799,Mitcham Generic,London Mitcham,31483,15570
+538,6053899,Nailsworth Generic,Nailsworth,21557,10805
+540,6054099,Oswestry Generic,Oswestry,28049,13303
+568,6056899,Northallerton High Street - Generic,Northallerton,21841,11548
+574,6057499,Poynton Generic,Poynton,11224,7181
+583,6058399,Brough Welton Rd - Generic,Brough Welton Road,22003,14387
+598,6059899,Welshpool Berriew St - Generic,Welshpool Berriew Street,28149,13202
+605,6060599,Ramsbottom Generic,Ramsbottom Bury,25901,13380
+607,6060799,Royston Generic,Royston,24834,11060
+608,6060899,Shefford Generic,Shefford,26544,12927
+633,6063399,Southwark Generic,London Southwark,28568,13401
+635,6063599,Guisborough Westgate - Generic,Guisborough West Gate,28579,15570
+638,6063899,Tyldesley Generic,Tyldesley,27195,13714
+641,6064199,Worthing Generic,Worthing,54220,27728
+642,6064299,Larkfield Generic,Larkfield Aylesford,26222,12035
+643,6064399,Margate Generic,Margate,39708,17455
+647,6064799,Banchory Generic,Banchory,30153,13174
+650,6065099,Louth Generic,Louth,31468,12379
+651,6065199,Maghull Generic,Maghull,22604,11911
+652,6065299,Porth Generic,Porth,41247,20451
+678,6067899,Westbury Generic,Westbury,24320,11175
+691,6069199,"Green Street, Kidderminister - Generic",KIDDERMINSTER GREEN STREET,77635,37596
+692,6069299,Llanelli - Generic,LLANELLI PEMBERTON,81318,39848
+693,6069399,Glasgow Giffnock (new) - Generic,GIFFNOCK FENWICK 2,61478,32173
+,Like for Like 428 (Inc Stores Unallocated) ,,,,
+350,6035099,Goole Generic,GOOLE,41104,20552
+368,6036899,Coventry Holbrook - Generic,Coventry Holbrook,41106,20553
+372,6037299,Minehead - Generic,MINEHEAD,45546,22773
+385,6038599,Catton - Generic,Norwich Catton,24594,12297
+389,6038999,South Shields - Generic,South Shields,50954,25477
+391,6039199,Openshaw - Generic,OPENSHAW,65574,32787
+394,6039499,Bamber Bridge - Generic,Bamber Bridge,27370,13685
+398,6039899,Great Harwood,Great Harwood,29060,14530
+440,6044099,Connah's Quay - Generic,CONNAHS QUAY,53466,26733
+539,6053999,New Milton Generic,New Milton,16196,8098
+677,6067799,Saltney Generic,SALTNEY,65354,32677
+694,6069499,Harehills - Generic,HAREHILLS,41122,20561
+,2010-11,,,,
+388,6038899,Borehamwood - Generic,Borehamwood,45584,22792
+407,6040799,Newport,NEWPORT NEW,58400,29200
+409,6040999,Bathgate,BATHGATE,65000,32500
+414,6041499,Peterborough,PETERBOROUGH Stanground,44000,22000
+415,6041599,Salford,SALFORD,50800,25400
+417,6041799,Wrexham ,WREXHAM,73200,36600
+420,6042099,Newton Le Willows,Newton le Willows,17400,8700
+428,6042899,Telford,Telford,15400,7700
+430,6043099,Armthorpe,Armthorpe,14600,7300
+437,6043799,Castleford,Castleford,17400,8700
+450,6045099,Bedlington,Bedlington,15400,7700
+451,6045199,Ravensthorpe,Ravensthorpe,16000,8000
+466,6046699,Shildon,Shildon,20000,10000
+467,6046799,Castletown,Castletown,17400,8700
+470,6047099,Handsworth New Store Generic,WEST BROMWICH THE HAWTHORNES,76636,38318
+493,6049399,Bolton,Bolton Bury Road,20200,10100
+494,6049499,Boston,Boston,16000,8000
+495,6049599,Rugby,Rugby,17600,8800
+502,6050299,Oldbury,Oldbury,12200,6100
+503,6050399,West Bromwich,West Bromwich,20400,10200
+504,6050499,Tamworth,Tamworth Upper Gungate,20200,10100
+505,6050599,Bransholme,Bransholme,14600,7300
+507,6050799,Accrington,accrington,15200,7600
+508,6050899,Leigh,LEIGH,66600,33300
+509,6050999,New Brighton,NEW BRIGHTON,67400,33700
+511,6051199,Wisbech,Wisbech,50000,25000
+512,6051299,Kirkby in Ashfield,KIRKBY IN ASHFIELD,59800,29900
+514,6051499,Stowmarket,Stowmarket,33000,16500
+516,6051699,Glasgow Barrack Street,Glasgow Barrack Street,28400,24200
+517,6051799,Manchester Worsley Little Hulton,Little Hulton,14400,7200
+518,6051899,Dunstable Houghton Regis,Houghton Regis,16600,8300
+522,6052299,Portsmouth Victory Park,Portsmouth Victory Park,60000,30000
+523,6052399,Cramlington,Cramlington,16600,8300
+525,6052599,Braintree,Braintree,25800,12900
+541,6054199,Wallasey,Wallasey,18000,9000
+,2011-12 Openings,,,,
+166,6016699,Cwmbran,CWMBRAN,78200,39100
+365,6036599,Tunbridge Wells Vale Rd - Generic ,Tunbridge Wells Vale Road,48800,24400
+471,6047199,"Hadleigh, Suffolk",Hadleigh Suffolk,51200,25600
+545,6054599,Edgbaston,EDGBASTON,50600,25300
+546,6054699,Eastbourne,EASTBOURNE,83400,41700
+552,6055299,Coleshill,COLESHILL,22600,11300
+553,6055399,Aldershot,ALDERSHOT,85800,42900
+556,6055699,Lowestoft,Lowestoft North Quay,53800,26900
+559,6055999,Wells,WELLS,53200,26600
+560,6056099,Teignmouth,TEIGNMOUTH,42000,21000
+561,6056199,Telford - Lawley,TELFORD LAWLEY,40000,20000
+563,6056399,Doncaster,DONCASTER BALBY,81400,40700
+NEWSTOREE,NEWSTOREE,Middlewich,MIDDLEWICH,33000,16500
+Sittingbourne,Sittingbourne,Sittingbourne,SITTINGBOURNE,74000,37000
+,2012-13 Openings,,,,
+Bacup,Bacup,Bacup,,25000,12500
+Bargoed,Bargoed,Bargoed,,63000,31500
+Bedford,Bedford,Bedford,,80000,40000
+Cardiff,Cardiff,Cardiff,,60000,30000
+Croydon,Croydon,Croydon,,72000,36000
+Elland,Elland,Elland,,48800,24400
+Gloucester,Gloucester,Gloucester,,82000,41000
+6054999,Harrow,HARROW,,63600,31800
+Hoddesdon,Hoddesdon,Hoddesdon,,60000,30000
+Leamington Spa,6054799,Leamington Spa,,82000,41000
+Littlehampton,Littlehampton,Littlehampton,LITTLEHAMPTON,49800,24900
+Preston,Preston,Preston,,75600,37800
+Sheldon,Sheldon,Sheldon,,81400,40700
+Sheppey,Sheppey,Sheppey,,63000,31500
+Swindon - Dorcan Way,Swindon - Dorcan Way,Swindon - Dorcan Way,,50000,25000

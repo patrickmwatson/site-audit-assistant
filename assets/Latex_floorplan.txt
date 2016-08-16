@@ -1,0 +1,2 @@
+%\include{Approximate Location Layout for Installation Equipment}
+	\input{Chapters/Latex_ApproximateLocationLayoutforInstallationEquipment.tex}

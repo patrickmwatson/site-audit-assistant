@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <SeekBar 
+        android:id="@+id/resizeiconsseekbar"
+         android:visibility="invisible"
+          android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:max="400"
+            android:progress="100"/>
+     <Button
+        android:id="@+id/resizeiconscancel"
+         android:visibility="invisible"
+         android:text="Cancel"
+          android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:layout_below="@+id/resizeiconsseekbar"
+             android:layout_alignParentLeft="true"/>
+     <Button
+        android:id="@+id/resizeiconsfinished"
+         android:visibility="invisible"
+         android:text="OK"
+          android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/resizeiconscancel"
+            android:layout_below="@+id/resizeiconsseekbar"/>
+     
+    
+    <ImageView
+            android:visibility="invisible"
+            android:id="@+id/unfullscreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/unfullscreen" 
+          	android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="right"/>
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:id="@+id/toptoolbar"
+    android:orientation="horizontal" >
+	
+	
+        <ImageView
+            android:id="@+id/floorplanprevious"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/undo" />
+
+        <ImageView
+            android:id="@+id/floorplannext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/redo" />
+    
+         <ImageView
+            android:id="@+id/layers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/layers" />
+        
+        <ImageView
+            android:id="@+id/fullscreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fullscreen" />
+         <ImageView
+            android:id="@+id/resizeicons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/resizeicons" />
+           <ImageView
+            android:id="@+id/metersperpixelbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/getscaleicon" />
+          <ImageView
+            android:id="@+id/preferences"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/preferencesicon" />
+
+    </LinearLayout>
+    <TextView
+            android:id="@+id/floorplantitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Floor Plan"
+            android:textSize="45sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            />
+<ScrollView 
+    		android:id="@+id/righttoolbarscrollview"
+    		android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/floorplantitle">
+<LinearLayout
+    android:layout_width="96px"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:id="@+id/righttoolbar" >
+	
+	<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/righttoolbarbuttonparent"
+   >
+	
+        
+        <ImageView
+            android:id="@+id/bms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bms" 
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"/>
+
+        <ImageView
+            android:id="@+id/elc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/elc" 
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/bms"/>
+
+        <ImageView
+            android:id="@+id/gateway"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gateway" 
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/elc"/>
+
+        <ImageView
+            android:id="@+id/ethernetport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ethernetport" 
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/gateway"/>
+
+        <ImageView
+            android:id="@+id/sam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sam" 
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/ethernetport"/>
+
+        <ImageView
+            android:id="@+id/tempsensor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tempsensor" 
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/sam"/>
+         <ImageView
+            android:id="@+id/distributionboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/distributionpanel" 
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tempsensor"/>
+         <ImageView
+            android:id="@+id/samarray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/samarray" 
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/distributionboard"/>
+          <ImageView
+            android:id="@+id/datahub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/datahub" 
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/samarray"/>
+        
+         <ImageView
+            android:id="@+id/addtexttofloorplan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/addtexttofloorplan" 
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/datahub"/>
+         
+          <ImageView
+            android:id="@+id/legend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/minilegendbutton" 
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/addtexttofloorplan"/>
+         
+         
+      <TextView
+          	android:text="BMS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/bms"
+            android:layout_alignLeft="@+id/bms"
+            android:background="#ffffff"
+            android:visibility="invisible"
+            android:textSize="10dp"
+            />
+
+        <TextView
+            android:text="ELC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/elc"
+            android:layout_alignLeft="@+id/elc"
+            android:background="#ffffff"
+            android:visibility="invisible"
+            android:textSize="10dp"
+            
+            />
+
+        <TextView
+            android:text="Gateway Server"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/gateway"
+            android:layout_alignLeft="@+id/gateway"
+            android:background="#ffffff"
+            android:visibility="invisible"
+                        android:textSize="10dp"
+            
+            />
+
+        <TextView
+            android:text="ETHERNETPORT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ethernetport"
+            android:layout_alignLeft="@+id/ethernetport"
+            android:background="#ffffff"
+                        android:textSize="10dp"
+            
+            android:visibility="invisible"/>
+
+        <TextView
+            android:text="SAM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/sam"
+            android:layout_alignLeft="@+id/sam"
+            android:background="#ffffff"
+                        android:textSize="10dp"
+            
+            android:visibility="invisible"/>
+
+        <TextView
+            android:text="Temp Sensor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tempsensor"
+            android:layout_alignLeft="@+id/tempsensor"
+            android:background="#ffffff"
+                        android:textSize="10dp"
+            
+            android:visibility="invisible"/>
+        
+         <TextView
+            android:text="Distribution Board"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/distributionboard"
+            android:layout_alignLeft="@+id/distributionboard"
+            android:background="#ffffff"
+                        android:textSize="10dp"
+            
+            android:visibility="invisible"/>
+         
+           <TextView
+            android:text="SAM Array"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/samarray"
+            android:layout_alignLeft="@+id/samarray"
+            android:background="#ffffff"
+                        android:textSize="10dp"
+            
+            android:visibility="invisible"/>
+         
+         <TextView
+            android:text="Data Hub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/datahub"
+            android:layout_alignLeft="@+id/datahub"
+            android:background="#ffffff"
+                        android:textSize="10dp"
+            
+            android:visibility="invisible"/>
+       
+        <TextView
+             android:text="Add Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/addtexttofloorplan"
+            android:layout_alignLeft="@+id/addtexttofloorplan"
+            android:background="#ffffff"
+                        android:textSize="10dp"
+            
+            android:visibility="invisible"/>
+         
+       
+        
+         <TextView
+             android:text="Legend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/legend"
+            android:layout_alignLeft="@+id/legend"
+            android:background="#ffffff"
+                        android:textSize="10dp"
+            
+            android:visibility="invisible"/>
+       
+    </RelativeLayout>
+    </LinearLayout>
+      </ScrollView>
+</RelativeLayout>

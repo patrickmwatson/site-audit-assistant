@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <!-- Used in View/Spinner1.java -->
+    <string-array name="component_types">
+        <item></item>
+        <item>BMS</item>
+        <item>Boiler</item>
+        <item>Boiler Pump</item>
+        <item>Heat Pump</item>
+        <item>Chiller</item>
+        <item>Chiller Pump</item>
+        <item>AHU</item>
+        <item>VAV</item>
+        <item>Inverter</item>
+        <item>ACU</item>
+        <item>Extractors</item>
+        <item>See Notes</item>
+    
+    </string-array>
+    
+   
+        
+     <string-array name="area_units">
+    
+       <item> m² </item>
+       <item> ft² </item>
+   
+      
+     </string-array>
+     <string-array name="currencies">
+    
+       <item>(€)Euro</item>
+       <item>(£)GBP</item>
+       <item>RON</item>
+       <item>(₪)NIS</item>
+   
+      
+     </string-array>
+     
+        <string-array name="months">
+    
+       <item>January</item>
+       <item>February</item>
+       <item>March</item>
+       <item>April</item>
+       <item>May</item>
+       <item>June</item>
+       <item>July</item>
+       <item>August</item>
+       <item>September</item>
+       <item>October</item>
+       <item>November</item>
+       <item>December</item>
+
+     </string-array>
+     
+       <string-array name="year">
+    
+       <item>10</item>
+       <item>11</item>
+       <item>12</item>
+       <item>13</item>
+       <item>14</item>
+       <item>15</item>
+     
+     
+
+
+     </string-array>
+     
+       <string-array name="recommendation_type">
+    
+       <item></item>
+       <item>MCS</item>
+       <item>CAP</item>
+       <item>EOL</item>
+      
+     
+
+
+     </string-array>
+      <string-array name="recommendation_areaofopportunity">
+    
+        <item></item>  
+       <item>HVAC</item>
+       <item>BMS</item>
+       <item>Lighting</item>
+       <item>Computers</item>
+      
+     
+
+
+     </string-array>
+     
+      <string-array name="observations">
+    <item> </item>
+        <item>Chiller, Low Set Point</item>
+        <item>FCU, Heating and Cooling in Same Zone</item>
+        <item>Constant Yearly Office Temps (Not Seasonal)</item>
+        <item>AHU, Fresh Air Dampers not managed by occupancy</item>
+        <item>Free Cooling Not Used</item>
+        <item>Data Centers, Low Set Point</item>
+        <item>New</item>
+    
+     </string-array>
+        
+    <string-array name="generic_recommendations_detailed">
+    
+        <item> </item>
+        <item>The chillers set point temperature is very cold.  The chillers set point could be increased by 1 or 2°C (step by step).  By raising the temperature of the set-point it will decrease the change in temperature seen across the supply and return water for the chilled water loop.  Lowering the temperature difference results in better chiller performance.  Also, the demand on the system will be less resulting in lower compressor runtime.</item>
+        <item>Some fan coil units are heating and some others are cooling in the same area.  When the units are cooling and heating at the same time the energy consumed is double but the cooling and heating effectively cancel one another out, resulting in nil cooling/heating.  To prevent heating and cooling at the same time we recommend raising the differential temperature to have enough difference not to do so.  Though, the energy consumption of heating and cooling are not exactly the same, you could see energy savings of nearly 50%% of the particular equipment  of that area that is being both cooled and heated at the same time. An alternative solution instead of setting a higher temperature differential would be to set some FCUs as masters while the others are set as slaves. This would have the same effect in savings but it’s would eliminate the need to change set temperature values.</item>
+     	<item>In the open space offices, the recommendation is to increase or reduce the temperature (depending on the season)  as it is set between 22 and 24°C the whole year (temperature measured with a temporary temperature sensor, 24°C in summer at the ground floor level and 25°C at the level 1). The recommendation would be 20°C in winter and 26°C in summer with a delta of 5°C with the outside air temperature. So, a saving of 7%% should be reached on the cooling and heating for the office. It would be 2%% on the total consumption.</item> 
+        <item>The AHUs fresh air is not managed by occupancy. The fresh air dampers seem to be set to a minimum of 10%%, this minimum could be changed and decreased to 5%% in order to have minimum of 18m3/h/person. The dampers opening could be scheduled to vary by the temperature and site occupation (less occupancy from 7am to 9am and from 4pm to 6pm).This will reduce the work on the cooling system because during time of low occupancy the amount of fresh air (warm air) introduced to the system can be greatly reduced.  The more fresh air introduced to a system results in the compressors working harder to overcome the warmer air.  This system has the potential to run 3 to 5 %% more efficiently.</item>
+        <item>Currently “Free-cooling” mode is not being used. Cooling is often required even when outside temperatures drop below the minimum condenser water temperature. If outside air temperature is low enough, the chiller should be shut off and outside air used. If cooling cannot be done with outside air, a chiller bypass can be used to produce chilled water without the use of a chiller.</item>
+   		<item>The cooling systems in the data centers is set to 21°C, it could be increased to 23°C or 25°C. Temperature sensors would help to have a better view of the temperatures in these rooms. Because of the restriction we couldn’t had access to these DC, so, the number and installation points for the temperature sensors would be chosen only thanks to a map. The increase of 2 or 4°C will allow a save of 1.1%% to 1.8%% of the total consumption that represents 6%% to 10%% of the consumption of the cooling for the data centers.</item>
+        <item>  </item>
+   
+      
+     </string-array>
+     
+    <string-array name="generic_recommendations_summary">
+    
+        <item> </item>
+        <item>Increase chiller set point.</item>
+        <item>Increase delta on temperature sensors.</item>
+     	<item>Change temperature to 20°C in winter and 26°C in summer with a delta of 5°C with the outside air temperature.</item> 
+        <item>The dampers opening could be scheduled to vary by the temperature and site occupation</item> 
+        <item>Use "Free-Cooling" mode</item>
+   		<item>Increase the temperature in the data centers by 2°C to 4°C</item>
+        <item>  </item>
+   
+      
+     </string-array>
+     
+        
+        
+   
+ 
+</resources>

@@ -1,0 +1,75 @@
+\section{Facility Energy Consumption Statistics Table}
+
+\DTLsetseparator{///}
+\DTLloadrawdb{table1}{./Chapters/Latex_consumption1.csv}
+\DTLloadrawdb{table2}{./Chapters/Latex_consumption2.csv}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}
+ 
+\rowcolors{2}{lhitabledeep}{lhitablelight}
+
+ \renewcommand{\dtlheaderformat}{ \rowcolor{lhitabletitle}\color{white}\normalfont\Large\bfseries}
+ 
+\DTLdisplaydb{table1}
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{llc}
+\renewcommand{\dtlheaderformat}{ \rowcolor{lhitabletitle}\color{white}\normalfont\Large\bfseries} }
+%\dtliflastrow{ \rowcolor{lhitabletitle}\color{white} }{}
+\rowcolors{2}{lhitabledeep}{lhitablelight}
+
+%\renewcommand{\DTLiflastrow}{ \rowcolor{lhitabletitle}\color{white} }{}
+
+\DTLdisplaydb{table2}
+\end{tabular}
+\end{table}
+
+%
+%
+%
+% BACK UP WORKING COPY
+%
+%\begin{filecontents}{./Chapters/Latex_312.csv}
+%theta, x, y
+%30.0,   0.0,    0.0
+%60.0,   1.9098, 5.8779
+%90.0,   6.9098, 9.5106
+%120.0,  13.09,  9.5106
+%150.0,  18.09,  5.8779
+%180.0,  20.0,   0.0
+%\end{filecontents}
+%\centering
+%
+%
+%\pgfplotstableread[col sep=comma]{./Chapters/Latex_312.csv}{\table}
+%\pgfplotstabletypeset[
+%    dec sep align=S,    % Use the siunitx `S` column type for aligning at decimal point
+%    fixed zerofill,     % Fill numbers with zeros
+%    precision=10,        % Set number of decimals
+%    display columns/0/.style={
+%        precision=1,    % Change for first column (column index 0)
+%        column name=$Month$
+%    },
+%    display columns/1/.style={column name=$kWh$},
+%    display columns/2/.style={column name=$GBP$},
+%     display columns/3/.style={column name=$USD$},
+%    every even row/.style={
+%	before row={\rowcolor[blue]{0.9}}},
+%    every head row/.style={before row=\toprule
+%    \rowcolor[gray]{0.9}, after row=\midrule},
+%    every last row/.style={before row={\rowcolor[gray]{0.9}}},
+%    string type,
+%    ] {\table}
+%
+% BACK UP END
+%
+%
+%
+
+
+

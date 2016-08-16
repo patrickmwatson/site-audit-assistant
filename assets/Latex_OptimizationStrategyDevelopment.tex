@@ -1,0 +1,52 @@
+\section{Optimization Strategy Development}
+
+\subsection{Site System Overview}
+
+The strategy developed for this site begins with understanding the current controls deployed. The site is comprised mainly of technical area with cooling from AHUs with 2 chiller units. Detailed descriptions of the individual components can be seen in section 2. A simplified mechanical diagram of the cooling system in place at this site can be seen below
+
+\begin{center}
+	\centering
+	\includegraphics[width=0.90 \textwidth]{./Pictures/mechanicaldesign.jpg}
+\end{center}
+
+The majority of the mechanical energy used at this site is contained in the previous diagram. There are several other smaller units, but these chiller and distributed AHU systems are the main loads. The building does not include a BMS and therefore leads to a narrow scope of control options which can adversely affect energy consumption efficiency. 
+
+\subsection{Existing Controls Breakdown}
+
+All the mechanical components at this site are controlled by on-board integrated controllers. The different units are listed below along with a breakdown of their control systems.
+
+\begin{itemize}
+  \item  The supply side equipment serviced by the chillers as described in the previous section will comprise a large portion of mechanical energy consumption. These will be key targets for monitoring and optimization.
+  \begin{enumerate}[o]
+     \item  11 Aireblue AHUs UFC CH 1000 have onboard controllers with \$S485 serial connection card.
+     \end{enumerate}
+  \item 	2 Chillers from Ciat LCH 1202Z provide water/glycol cooling fluid to the previously mentioned AHUs are just as critical to the optimization process, have onboard controllers with RS485 connection options.
+  \end{itemize}
+
+\subsection{Implementation Overview}
+
+Communication with all available critical sensor and control data streams is ideal, therefore interfacing these individual units with Maestro is recommended. With universal connectivity abilities within our platform, this will allow us to leverage functionality of the installed infrastructure. Unit interface can be achieved by direct communication where available, possibly with third party hardware, or by additional Life Hack Innovations hardware. The goal of the direct communication interface is to first access internal sensor data for analytical purposes and then access internal control outputs once a valid control strategy has been developed an approved. In the instances where direct communication is not available or unreliable with the unit’s on-board controllers, Elutions hardware can provide much of the same functionality as the direct interface and will acquire all the telemetry to execute control and optimize behavior of targeted mechanical assets.
+\\
+\\
+The installation plan outlined in this document covers the installation of Life Hack Innovations hardware for total site energy monitoring, load profiling, and building response data. This includes ELCs, SAM meters, and space temperature sensors. The space temperature sensors are located by zones to expand the space temperature data for all valid areas (See sections 8 and 9 for sensor zones). The approximate locations for these items were chosen based on several perceived factors during site walks. All existing temperature data streams accessible, including unit interfacing and installed zone temperature sensors, and possible airflow distribution problems of existing cooling systems were used to develop the locations of these sensors. After installation preparation has determined the exact locations of these sensors based upon site specific limitations, they will be installed within the vicinity shown on the diagram in section 9 and calibrated as needed. 
+\\
+\\
+During the installation plan detailed in this document, there will be ongoing research and development for interfacing options with all site mechanical assets. As indicated and described earlier this will be performed as per case basis with the intention to interface with vital mechanical equipment and acquire the complete telemetry needed to propose future control changes and attain optimized operation of every targeted asset. This research and interfacing plan will lead to the development of a detailed report which will address several key items. First, the report will address the detailed interfacing option for each of the facility assets and second, extensive analysis of asset control with its advantages. This report will also include the complete BOM for the interfacing hardware (MAHU kit, Trend Integrator, Modbus-Serial Card etc.). The previous sub-section outlined the current controls in place for existing equipment. Complete ability of the existing system controls coupled with Maestro supervisory abilities with necessary interfaces in place will provide valuable data about the site that will help determine and propose future control implementation plan. Next, a detailed optimization strategy and complete engineering report will be developed. Upon complete implementation, the site will be fully commissioned with telemetry available for all targeted mechanical assets, localized building responses, and site energy consumption. In order for us to connect and to collate all these data streams from disparate hardware, we will install Maestro Supervisory BMS.
+\\
+\\
+Compiling these data streams into a centralized source allows for several key analysis tools that are outlined below.
+
+\begin{itemize}
+  \item  	Live Data Monitoring of All Component Power Use (Baseline) and Sensor Data (Environmental)
+  \item		Computation of Component and Total Grouped Systems Efficiency
+  \item		Ability to Model and Simulate for Optimal Operating Conditions
+  \begin{enumerate}[o]
+     \item  	Set Point Validity
+     \item		Control Strategy Optimization
+   \end{enumerate}
+\end{itemize}
+
+When a sufficient amount of data has been collected (generally 30 days) the information determined about system and control efficiency will be used to develop the optimization schedule and ideal control implementation for this specific site. The development of the control strategy after full telemetry is available will allow for the understanding of site efficiency from factors that are not visible from simply looking at the operation of site equipment.
+\\
+\\
+The information gathered in the site behavior analysis phase is where the bulk of our solution is derived (Phase 4 in CW Phase Definitions and M\&E Requirements PowerPoint). With all the information gathered into a centralized location we will be able to determine operational inefficiencies of the systems in their currently installed configuration. After the system has been commissioned, our control strategy optimization proceeds through analysis of set-points, building response, and control methods for individual components, zoned components, and the total system. This analysis is then used to develop improvements for all possible problem areas determined. The Maestro platform will then act as a total system controller. However, all control strategy or system changes will be submitted to facility management for approval before implementation. This allows for system control decisions to be made with optimized total system efficiency with site specific conditions taken into account instead of disparate component controllers optimizing their respective efficiencies with limited data.

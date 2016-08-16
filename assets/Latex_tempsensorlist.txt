@@ -1,0 +1,3 @@
+%\include{Temperature Sensor Listn}
+	\input{Chapters/Latex_TemperatureSensorList.tex}
+\clearpage

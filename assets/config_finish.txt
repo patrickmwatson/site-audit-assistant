@@ -1,0 +1,11 @@
+  
+   {
+   "enabled": true,
+   "mbtcpUnitId": 255,
+   "mbrtuUnitId": 255,
+   "comPort": 1,
+   "path": "xlc",
+   "note": ""
+  }
+ ]
+};

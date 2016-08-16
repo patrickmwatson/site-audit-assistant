@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/toggleiconscaling"
+        android:icon="@drawable/addpicture"
+android:title="Toggle Icon Scaling" />
+<item android:id="@+id/help"
+     android:icon="@drawable/calculator48x48"
+android:title="Help" />
+</menu>

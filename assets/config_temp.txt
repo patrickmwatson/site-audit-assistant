@@ -1,0 +1,1 @@
+{ "edsNode": "mAinanalog", "trigger": 0, "rate": 300, "mapidx": 1, "offset": 0 }comma

@@ -1,0 +1,15 @@
+ \begin{tabular}{ |  m{13cm} | m{5cm} | }
+  
+    \begin{minipage}{.3\textwidth}
+      \includegraphics[width=PICTUREWIDTH, height=PICTUREHEIGHT]{compenentspath}
+   
+    \end{minipage}
+    &
+    %\begin{minipage}[t]{5cm}
+      \begin{itemize}
+        \item assetdescription
+       
+      \end{itemize}
+    %\end{minipage}
+    & & \\\specialrule{0.5pt}{0pt}{0pt}
+    \end{tabular}

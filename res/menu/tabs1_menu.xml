@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/menu_settings"
+        android:title="Settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+     <item android:id="@+id/menu_help"
+        android:title="Help (Coming Soon Call Patrick For Now 001-813-362-9644))"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+      <item android:id="@+id/menu_refreshimages"
+        android:title="Refresh Images"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+</menu>

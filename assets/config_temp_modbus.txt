@@ -1,0 +1,8 @@
+{
+   "enabled": true,
+   "mbtcpUnitId": 99,
+   "mbrtuUnitId": tempvariable,
+   "path": "4|0",
+   "comPort": 1,
+   "note": ""
+  },

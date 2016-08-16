@@ -1,0 +1,3 @@
+%\include{Facility Information}
+%	\label{chapter:facilityinformation}
+	\input{Chapters/Latex_FacilityInformation.tex}

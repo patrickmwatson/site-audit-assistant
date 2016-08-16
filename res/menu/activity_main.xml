@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_settings"
+        android:title="Settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+     <item android:id="@+id/menu_cleardata"
+        android:title="Clear Database Data"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+      <item android:id="@+id/menu_restoredefaults"
+        android:title="Restore Default Preferences"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+       <item android:id="@+id/menu_resetapprename"
+        android:title="Reset App (Renames old folder)"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+       <item android:id="@+id/menu_resetapp"
+        android:title="Reset App (Deletes all folders)"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+      <item android:id="@+id/menu_uninstall"
+        android:title="Uninstall"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+      <item android:id="@+id/menu_fulluninstall"
+        android:title="Delete Project files and Uninstall"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+	<item android:id="@+id/menu_help"
+        android:title="Help"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+  
+    
+</menu>

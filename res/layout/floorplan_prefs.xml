@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Preferences">
+
+  <PreferenceCategory
+     android:title="Options">
+
+        
+     <CheckBoxPreference
+       android:key="scaledicons"
+       android:title="Scale Icons"
+       android:summary="Makes items maintain scale when zooming in and out"
+       android:defaultValue="false"
+       />
+    <CheckBoxPreference
+       android:key="boundicons"
+       android:title="Bound Icons"
+       android:summary="Forces items to stay within screen bounds"
+       android:defaultValue="false"
+       android:dependency="scaledicons"
+     
+       />
+    <CheckBoxPreference
+       android:key="toolbarkey"
+       android:title="Show Tool Bar Key"
+       android:summary="Shows the title of the different objects on the toolbar"
+       android:defaultValue="false"
+     
+     
+       />
+    <CheckBoxPreference
+       android:key="multilevel"
+       android:title="Multi-Level Interaction"
+       android:summary="Selecting this option allows objects like temperature sensors to connect with objects like ELCs on other floors. It is recommended that your floorplans overlap perfectly and are to scale for this feature"
+       android:defaultValue="false"
+     
+     
+       />
+     <CheckBoxPreference
+       android:key="autorenumbertemps"
+       android:title="Auto-renumber Temperature Sensors based on the closest ELC"
+       android:summary="**Warning, selecting auto-renumbering may change your temperature values, and the old values are lost forever. Selecting this option forces temperature sensors to renumber based on the closest ELC. Use in combination with Multi-Level option above to attach Temp Sensors to ELCs on different floors."
+       android:defaultValue="true"    />
+     
+      <CheckBoxPreference
+       android:key="ngbicons"
+       android:title="NGBailey Icons"
+       android:summary="Selecting this option replaces Life Hack Innovations icons and legend with NGBailey icons and legend."
+       android:defaultValue="false"
+     
+       />
+       <CheckBoxPreference
+       android:key="drawsamreferencetable"
+       android:title="Show SAMs Reference Table"
+       android:summary="Selecting this option will display the SAM reference table"
+       android:defaultValue="true"
+       
+     
+       />
+        <CheckBoxPreference
+       android:key="rapidplacement"
+       android:title="Rapid Item Placement"
+       android:summary="When selected, this option bypasses data dialogs from openning when a new item is placed. *These dialogs are important and may be forgotten if not completed on item placement."
+       android:defaultValue="false"
+       
+     
+       />
+    
+  </PreferenceCategory>
+
+  <PreferenceCategory
+     android:title="Settings">
+      
+      <EditTextPreference
+        android:key="pref_fontsize"
+        android:title="Default Font Size"
+        android:summary="Tap to enter some text"
+        android:dialogTitle="Please choose the default font size"
+    />
+      
+    <ListPreference
+        android:key="pref_fonttype"
+        android:title="Default Font Color"
+        android:summary="Select item from array"
+        android:entries="@array/types"
+        android:entryValues="@array/types_values"
+        android:defaultValue="1"
+        />
+
+    
+   
+  </PreferenceCategory>
+<!--
+  <Preference
+    android:title="Intent"
+    android:summary="Open a webpage">
+
+    <intent
+      android:action="android.intent.action.VIEW"
+      android:data="http://android-elements.blogspot.com/" />
+
+  </Preference>
+    --> 
+</PreferenceScreen>
